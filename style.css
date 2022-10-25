@@ -1,5 +1,5 @@
 
-.body {
+body {
     padding:15px;
     background-color:#FFDAB9;
 }
@@ -24,8 +24,8 @@
         height: 300px;
     }
     
-    .body {
+    body {
     padding:40px;
     background-color:#FFDAB9;
-}
+    }
 }
