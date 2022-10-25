@@ -1,44 +1,51 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <title> Project6 </title>
-    <meta charset="UTF-8">
-    <link rel = "stylesheet" href = "style.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" >
+	<title>Simple slider</title>
+	<link rel="stylesheet" type="text/css" href="sim-slider-styles.css">
+
 </head>
-<body class = "body">
-    <div>
-        <h1>Рассчитать стоимость заказа</h1>
-
-        <form>
-            <label>Выберите товар: </label>
-            <select name="prodType">
-                <option value="1">Мороженное</option>
-                <option value="2">Велосипед</option>
-                <option value="3">Пицца</option>
-            </select>
-
-            <div id="radios">
-                <label><input type="radio" name="prodOptions" value="option1" checked="checked">Самовывоз</label>
-                <label><input type="radio" name="prodOptions" value="option2" >Доставка</label>
-            </div>
-
-            <div id="checkboxes">
-                Что добавить?<br>
-
-                <label><input type="checkbox" name="prodM">Соус</label>
-                <label><input type="checkbox" name="prodM2">Больше сыра</label>
-                <label><input type="checkbox" name="prodM3">Больше ветчины</label>
-            </div>
-
-            <div>Количество:<br></div>
-            <input id="input" type="number" min="0" max="100" step="1" value="0">
-            <br>
-            Оплатить:
-            <button id="button1">OK</button>
-            <div id="prodPrice"></div>
-
-        </form>
-        <script src="js.js"></script>
+<body>
+    <div class = "body">
+	<div class="sim-slider">
+        <ul class="sim-slider-list">
+            <li class="sim-slider-element"><img src="https://images6.alphacoders.com/568/568500.jpg" alt="1"></li>
+            <li class="sim-slider-element"><img src="https://www.goodfreephotos.com/albums/canada/alberta/banff-national-park/very-majestic-and-beautiful-landscape-with-mountains-in-banff-national-park-alberta-canada.jpg" alt="2"></li>
+            <li class="sim-slider-element"><img src="https://image.winudf.com/v2/image1/Y29tLk1ZdGVjaC5IRF80S19XYWxscGFwZXJzXzIwMTlfc2NyZWVuXzNfMTU1MDEwMzA4NF8wMDk/screen-3.jpg?fakeurl=1&type=.jpg" alt="3"></li>
+            <li class="sim-slider-element"><img src="https://vsaunu777.ru/uploads/posts/2018-09/otdelka-bani-kamnem-otdelka-bani_6.jpg" alt="4"></li>
+            
+            <li class="sim-slider-element"><img src="https://i.pinimg.com/originals/f8/bf/57/f8bf5745f38068ce94058544c8aee189.jpg" alt="5"></li>
+            <li class="sim-slider-element"><img src="https://i.pinimg.com/originals/b5/10/1c/b5101ca3aced1afa053d71572a5bd8ce.jpg" alt="6"></li>
+            <li class="sim-slider-element"><img src="https://media.moddb.com/images/games/1/52/51697/nature-forest-industry-rails.jpg" alt="7"></li>
+            <li class="sim-slider-element"><img src="https://wp-s.ru/wallpapers/2/7/479129640551064/kanada-noch-i-prekrasnyj-gorod.jpg" alt="8"></li>
+            
+            <li class="sim-slider-element"><img src="https://interesno-vse.ru/wp-content/uploads/norvegia_3.jpg" alt="9"></li>
+            <li class="sim-slider-element"><img src="https://images4.alphacoders.com/168/168614.jpg" alt="10"></li>
+            <li class="sim-slider-element"><img src="https://vsegda-pomnim.com/uploads/posts/2022-04/1649133264_9-vsegda-pomnim-com-p-priroda-krasivo-foto-10.jpg" alt="11"></li>
+            <li class="sim-slider-element"><img src="https://image.winudf.com/v2/image1/Y29tLk1ZdGVjaC5IRF80S19XYWxscGFwZXJzXzIwMTlfc2NyZWVuXzJfMTU1MDEwMzA4NF8wNDc/screen-2.jpg?fakeurl=1&type=.jpg" alt="12"></li>
+           
+            <li class="sim-slider-element"><img src="https://i.pinimg.com/originals/61/16/e8/6116e87cf017c3575eac6ba2b7ae7a8f.jpg" alt="13"></li>
+            <li class="sim-slider-element"><img src="https://proavtologotip.ru/images/wp-content/uploads/2020/10/brend-ford-mustang-scaled.jpg" alt="14"></li>
+            <li class="sim-slider-element"><img src="https://s1.1zoom.me/big0/529/349149-admin.jpg" alt="15"></li>
+            <li class="sim-slider-element"><img src="https://www.hdwallpapers.in/download/road_in_the_forest_4k-HD.jpg" alt="16"></li>
+        </ul>
+        <div class = "column">
+        <div class="sim-slider-arrow-left"><img src = "https://img2.freepng.ru/20180627/cga/kisspng-roy-harper-arrow-clip-art-immobile-5b337b5ef1eaa8.4488999415301005749909.jpg"></div>
+        <div class="sim-slider-arrow-right"><img src = "https://w7.pngwing.com/pngs/501/813/png-transparent-arrow-computer-icons-arrow-angle-rectangle-triangle.png"></div>
+        <div class="sim-slider-dots"></div>
+        </div>
+    </div>
+	<footer class = "footer">
+	@Кощавцев Даниил
+	</footer>
+    </div>
+<script src="sim-slider.js"></script>
+<script>new Sim()</script>
 </body>
 </html>
 
+<body>
+
+</body>
