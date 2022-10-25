@@ -1,12 +1,9 @@
 4 lines (30 sloc)  597 Bytes
 
-.photo{
+.sim-slider-element{
     border-radius: 10px;
     width: 180px;
     height: 120px;
-}
-.data{
-    height: 180px;
 }
 
 h1{
@@ -20,17 +17,9 @@ body {
     background-color: rgb(40, 38, 38);
   }
   @media only screen and (min-width:800px) {
-    .photo{
+    .sim-slider-element{
         border-radius: 10px;
         width: 400px;
         height: 250px;
     }
-    .data{
-        height: 300px;
-    }
-    
-    ﻿body {
-    padding:40px;
-    background-color:#FFDAB9;
-}
 }
